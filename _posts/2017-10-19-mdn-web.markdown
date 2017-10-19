@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "微软和 Mozilla 的这次整合，你怎么看？"
+date:   2017-10-19 08:12:10 +0800
+categories: Web
+---
+![img](https://winblogs.azureedge.net/win/2017/10/5f06918f73070fef4068d1ad24847b8f.png)
+
+今天，我们很高兴为世界各地的开发者分享一个大的消息：我们正在承诺将 MDN Web 文档 作为 Web API 参考的最佳选择。为了解决这个问题，今天我们开始将超过 7,700 个 MSDN 页面重定向到由 Mozilla 提供的 MDN Web 文档库中的相关主题。
+
+结合 Mozilla，谷歌，W3C 和三星的类似承诺，我们正在合作，使 MDN Web Docs 成为 Web 开发人员学习和分享有关构建开放式 Web 信息的最佳选择。
+
+> MDN 是 Mozilla 总体使命的核心部分：确保互联网是一个全球公共资源，开放和可访问。我们相信，为 Web 开发人员提供最好的信息，使他们能够提供符合既定标准、跨平台和设备工作的卓越网络体验。我们很高兴有了微软，谷歌，W3C 和三星，我们继续努力，使 MDN 成为开发商的首要资源。
+
+> -- Mozilla 开发商生态系统负责人 Ali Spivak
+
+来自这些组织的[代表](https://developer.mozilla.org/en-US/docs/MDN/MDN_Product_Advisory_Board/Members)也将在 MDN 产品顾问委员会（MDN Product Advisory Board）上任职，这个委员会致力于使 MDN 成为当前和新兴的基于标准的网络技术，无浏览器差异的文档的最终目标。MDN 产品咨询委员会也在寻找来自网络社区的活跃人士担任董事会成员。如果您有兴趣，请查看有关 MDN 网络文档的[更多详细信息](https://developer.mozilla.org/en-US/docs/MDN/MDN_Product_Advisory_Board/Members)。
+
+**Web 文档应该被所有人使用**
+
+将我们的 API 文档库（兼容性信息）重定向到 MDN 是下一步我们的工作，它们也许是你经常使用的文档地址。今年早些时候，我们开始努力使用整理 MDN 浏览器兼容性表（关于 Microsoft Edge浏览器）。
+
+之后，超过 5000 次 MDN 编辑，Microsoft Edge 的整个 Web API 文档（截至 10/2017 Windows 10 Fall Creators Update，Build 16299）记录在了 MDN 上，并将继续保持持续的更新在每个新的发布，包括：Windows 和 EdgeHTML 浏览器引擎。
+
+我们在开发 Microsoft Edge 的指导原则之一是，终端用户不用担心哪些网站在哪些浏览器上运行。这种哲学 - “Web 应该被所有人使用”，我们选择在我们的浏览器工程中定位 Web API 的“可互操作的交叉点”。
+
+跟最终用户一样，我们认为开发人员对 Web 标准文档不迫切的看法已经过时了。开发人员不应该在标准机构，浏览器供应商和第三方之间追踪 API 文档，应该有一个单一的规范来源，由所有主要供应商进行社区维护和支持。
+
+由于这些原因，我们全面介绍了使 MDN 成为 Web 标准文档的主页。MDN 不仅是一个名副其实的百科全书和活跃的社区，而且这个机构本身也是历史上的丰碑 - 作为网络开发者和爱好者，网络标准倡导者，推动 Web 发展。
+
+**推动 Web 文档发展**
+
+MDN 最初作为 Mozilla 开发者中心成立于 2005 年，已经超过了 10 年，后来成为 Mozilla 开发者网络。Mozilla 组织由 Netscape 成立，Mozilla 开发者中心是成长于原来的 Netscape Navigator 浏览器文档。
+
+类似地，Internet Explorer 开发者中心在 90 年代后期的前几年，首次从 Microsoft开发者网络（MSDN）发布到线上，以帮助介绍和展示动态 HTML（“DHTML”），Microsoft 是现代 DOM 和 CSS 对象模型的前任者。
+
+快速回到今天的 Web 平台。对于早期网络的竞争者 Netscape 和 Internet Explorer 浏览器，技术研究是今天的主题，而不是站点兼容性测试。从最终版本的微软 Edge 诞生以来，我们用新兴的行业标准替代了早期的微软技术，即行业标准的 DHTML、VBScript、DOM 和 ECMAScript，ActiveX 的 HTML5，通用浏览器扩展模型对于浏览器帮助主题（“BHOs”）。
+
+通过所有这些变化，MDN 已经在网络上长大，今天拥有超过 34,500 份文档，每月 600 万用户和 20,500 个贡献者。从最初的 Netscape 产品文档中，MDN 的内容的广度和深度已经大大扩展到包含现代网络开发的最新状态，因此最近该网站被重组和重新命名，以反映 MDN 承诺成为中立的浏览器社区资源。我们很高兴和 Mozilla、谷歌，W3C、三星，一起致力于帮助 Web 标准文档进一步发展，以满足您的需求。
+
+我们将继续在 Microsoft 文档（docs.microsoft.com/microsoft-edge）上维护基于 Microsoft 和 Windows 的文档，包括特定于 Windows 的测试指南，有关 Edge DevTools 的信息以及 Windows 中有关 Progressive Web Apps 的即将到来的详细信息商店。而您仍然会在我们的Microsoft Edge Developer网站（dev.microsoftedge.com）上找到最新的Microsoft Edge状态，更改日志和新闻。
+
+请和我们一起加入对 MDN web 文档的支持和贡献！我们一起构建这个网站，让我们见证我们的辛勤工作！
+
+-- Erika Doyle Navara，高级开发者
+
+*[原文链接](https://blogs.windows.com/msedgedev/2017/10/18/documenting-web-together-mdn-web-docs/?utm_source=tuicool&utm_medium=referral)*
+
+====
+
+*欢迎关注本站公众号：zinaer666 获取实时文章推送*
