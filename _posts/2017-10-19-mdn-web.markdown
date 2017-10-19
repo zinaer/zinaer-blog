@@ -6,7 +6,7 @@ categories: Web
 ---
 ![img](https://winblogs.azureedge.net/win/2017/10/5f06918f73070fef4068d1ad24847b8f.png)
 
-今天，我们很高兴为世界各地的开发者分享一个大的消息：我们正在承诺将 MDN Web 文档 作为 Web API 参考的最佳选择。为了解决这个问题，今天我们开始将超过 7,700 个 MSDN 页面重定向到由 Mozilla 提供的 MDN Web 文档库中的相关主题。
+今天，我们很高兴为世界各地的开发者分享一个大的消息：我们正在承诺将 MDN Web 文档作为 Web API 参考的最佳选择。为了解决这个问题，今天我们开始将超过 7,700 个 MSDN 页面重定向到由 Mozilla 提供的 MDN Web 文档库中的相关主题。
 
 结合 Mozilla，谷歌，W3C 和三星的类似承诺，我们正在合作，使 MDN Web Docs 成为 Web 开发人员学习和分享有关构建开放式 Web 信息的最佳选择。
 
