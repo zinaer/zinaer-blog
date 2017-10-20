@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "忆苦思甜，那些斗战 CSS 的日子"
+title:  "忆苦思甜，那些斗战 CSS 的岁月"
 date:   2017-10-19 11:42:10 +0800
 categories: CSS
 ---
