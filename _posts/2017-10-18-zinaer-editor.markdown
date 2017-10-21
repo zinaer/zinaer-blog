@@ -54,4 +54,10 @@ categories: Markdown
 
 ====
 
-*欢迎关注本站公众号：zinaer666 获取实时免费文章推送*
+![](http://pic.zinaer.com/201710/zanshang.jpg)
+
+<small>*微信扫一扫进行赞赏*</small>
+
+![](http://pic.zinaer.com/201710/zinaer_wx.jpg)
+
+<small>*微信扫一扫关注此公众号*</small>
