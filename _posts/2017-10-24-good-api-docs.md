@@ -2,7 +2,6 @@
 layout: post
 title:  "好的 API 文档应该具备这十大要素"
 date:   2017-10-24 20:35:10 +0800
-categories: [API, Documentation]
 ---
 任何人使用你的 API 服务，首先提及的应该是文档，文档的好坏可以影响使用者对你产品的第一印象。
 

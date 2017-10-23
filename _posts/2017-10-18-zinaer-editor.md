@@ -2,7 +2,6 @@
 layout: post
 title:  "为什么你需要另一款 Markdown 编辑器？"
 date:   2017-10-18 17:22:10 +0800
-categories: Markdown
 ---
 
 ### 什么是 Markdown？

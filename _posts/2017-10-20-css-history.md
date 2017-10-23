@@ -2,7 +2,6 @@
 layout: post
 title:  "忆苦思甜，那些斗战 CSS 的岁月"
 date:   2017-10-20 11:42:10 +0800
-categories: CSS
 ---
 当你想到 HTML 和 CSS 时，你可能会将它们视为一个组合。但是在 Tim Berners-Lee 1989 年首创万维网后多年，并没有类似 CSS 这样的东西。最早的 Web 服务都没有具体的样式设计。
 
@@ -20,7 +19,7 @@ Pei-Yaun Wei 在 1991 年创建了 ViolaWWW 浏览器。他将自己的样式语
 
 在此期间，Andreessen 在自己的浏览器 Netscape Navigator 中采用了不同的方法。不同于创建专门针对网站样式的解耦语言，他只是将 HTML 扩展为包含可用于设计网页的非标准的 HTML 标签。不幸的是，Web 没多久丢弃了所有语义值，看起来就像这样：
 
-```
+```css
 <MULTICOL COLS="3" GUTTER="25">
   <P><FONT SIZE="4" COLOR="RED">将被一些字体分解成列</FONT></P>
 </MULTICOL>
@@ -34,7 +33,7 @@ Pei-Yaun Wei 在 1991 年创建了 ViolaWWW 浏览器。他将自己的样式语
 
 CSS 的突出是因为它很简单，特别是与其早期的竞争对手相比。
 
-```
+```css
 window.margin.left = 2cm
 font.family = times
 h1.font.size = 24pt 30%
@@ -52,7 +51,7 @@ Lie 发布了他最早的方案后不久，找到了合伙人 Bert Bos。Bos 发
 
 花费了几年时间，在 1996 年底，上边的例子变为：
 
-```
+```css
 html {
   margin-left: 2cm;
   font-family: "Times", serif;
@@ -85,13 +84,13 @@ Celik 知道为了使 CSS 工作，这些差异需要解决。他的解决方案
 
 我们都知道 DOCTYPE，常用于 HTML 的开头。
 
-```
+```html
 <!DOCTYPE html>
 ```
 
 但在过去，它们是这样的：
 
-```
+```html
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 ```
 
@@ -105,7 +104,7 @@ Eric Meyer 认为，这种切换模式是有必要的，因为我们仍然会使
 
 有一件事要弄清楚，DOCTYPE 声明对于旧的网站在新的浏览器是有效的，但是在旧的浏览器（尤其是 IE）中新网站的盒子模型是不可控的，使用 Celik 聪明的 Hack 技巧，它利用一些 CSS 属性 `voice-family` 来触发浏览器，支持同一个类中的多个宽度和高度，将旧的盒子模型宽度放在前面，用 `voice-family` 关闭标签，然后再放新的模型宽度，比如：
 
-```
+```css
 div.content {
   width: 400px;
   voice-family: ""}"";

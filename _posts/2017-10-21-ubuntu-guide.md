@@ -2,7 +2,6 @@
 layout: post
 title:  "抛开 macOS，它也许是你最好的选择"
 date:   2017-10-21 13:42:10 +0800
-categories: CSS
 ---
 Canonical 发布了最新版的 Ubuntu 17.10 Artful Aardvark。如果你对 Linux 感兴趣，从 Ubuntu 入手是一个不错的开始，也许你听说过 Ubuntu 但是对 Linux 没有概念？没关系，这里将用易于理解的语言教会你所有关于 Ubuntu 的知识。
 
