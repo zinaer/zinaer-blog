@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Firebug 将成为历史"
-date:   2017-10-25 06:35:12 +0800
+date:   2017-10-26 06:35:12 +0800
 ---
 来自 Mozilla 官方博客的最新消息，在下个月将要发布的 Firefox Quantum (version 57) 中，将不再包含 Firebug 工具。它所有的功能将在 Firefox 开发者工具中延续。
 
