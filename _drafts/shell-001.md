@@ -1,0 +1,162 @@
+---
+layout: post
+title:  "玩转 shell 系列之初识 shell"
+date:   2017-11-02 06:12:10 +0800
+---
+Linux 是世界上最强大、最灵活的操作系统之一，而 shell 是同 Linux 进行交互的最灵活的方式。除了执行单独的命令，shell 还可以执行命令脚本，所以非常易于实现各种任务的自动化操作。和学习其它手艺一样，熟能生巧，等你真正掌握了 shell，你就会感慨它的无穷魅力。
+
+下面将以 bash，目前大多数 Linux 系统默认的 shell 环境来学习。
+
+依据学习一门语言的国际惯例，首先我们看一个简单的 shell 脚本 `hello.sh` 来输出 `Hello World!`：
+
+```bash
+#!/usr/bin/env bash
+echo 'Hello World!'
+```
+
+有以下两种方式可以执行这个脚本：
+
+```bash
+# 如果没有可执行权限
+$ bash hello.sh
+# 如果有可执行权限
+$ ./hello.sh
+```
+
+这里有一个技巧，我们使用 `#!/usr/bin/env bash` 而不是 `#!/usr/bin/bash` 来决定谁来执行脚本，这样即使 bash 不是正常安装在 `/usr/bin` 目录，只要在环境变量 PATH 中，我们仍可以找到 bash，这个技巧同样适用于 Python 等脚本语言。
+
+### 终端打印
+
+**终端**是交互式工具，用户可以通过它与 shell 环境进行交互。在终端中打印文本是 shell 最常见，最基本的技能。而 echo 是用于终端打印的基本命令。
+
+```bash
+$ echo 'Welcome to bash!'
+Welcome to bash!
+```
+
+可以看到，echo 默认会在行尾增加换行操作。另外，默认使用**单引号**，来标识需要打印的内容是一个好的习惯。如果需要解析变量，再用**双引号**。
+
+另一个用于终端打印的命令是 printf 与 echo 不同的是，printf 可以格式化字符串、指 定字符串的宽度、左右对齐方式等。printf 不会再行尾添加换行。
+
+```bash
+#!/usr/bin/env bash
+printf  '%-5s %-10s %-4s\n' No Name  Mark
+printf  '%-5s %-10s %-4.2f\n' 1 XiaoHong 95.6789
+printf  '%-5s %-10s %-4.2f\n' 2 XiaoMing 89.9989
+printf  '%-5s %-10s %-4.2f\n' 3 LaoWang 59.564
+```
+
+输出结果：
+
+```bash
+$ bash printf.sh
+No    Name       Mark
+1     XiaoHong   95.68
+2     XiaoMing   90.00
+3     LaoWang    59.56
+```
+
+%s、%c、%d 和 %f 都是格式替换符。比如：%-5s 定义了左对齐且宽度为 5 的字符串替换格式，%-4.2f 定义了左对齐且宽度为 4 保留两位小数的浮点数替换格式。
+
+```bash
+$ echo -e "1\t2\t3"
+1	2	3
+```
+
+使用 -e 可以用来识别转义符。另外，-n 可以忽略 echo 在行尾默认添加的换行符。
+
+### 变量
+
+变量是任何一种编程语言都必不可少的组成部分，用于存放各类数据。有一些特殊的变量会被 shell 环境和操作系统环境用来存储一些特别的值，这类变量就被称为环境变量。
+
+```bash
+#!/usr/bin/env bash
+name='dog'
+count=12
+echo "We have $count ${name}s!"
+```
+
+通过 `var=value` 来赋值变量，通过添加 $ 来打印变量的值。
+
+```bash
+$ echo $PATH
+/usr/local/bin/vagrant:...:/bin:/usr/sbin
+$ export PATH="$PATH:/home/user/bin"
+$ echo $PATH
+/usr/local/bin/vagrant:...:/bin:/usr/sbin:/home/user/bin
+```
+
+$PATH 属于环境变量，是从父进程继承来的变量，我们使用 export 来设置环境变量，上边 `/home/user/bin` 被加进了环境变量。
+
+```bash
+$ num=12345678
+$ echo ${#num}
+8
+```
+
+使用 # 获取了变量的长度。
+
+```bash
+$ echo $SHELL
+/bin/bash
+$ echo $0
+-bash
+```
+
+上述两种方式都可以用来识别当前使用的 shell。
+
+```bash
+#!/usr/bin/env bash
+if [ $UID -ne 0 ]; then
+    echo 'Non root user.'
+else
+    echo 'Root user.'
+fi
+```
+
+上述脚本判断当前使用的账号是否是 root 用户，UID 是 0，代表是 root 用户。
+
+### 数学运算
+
+无论哪种编程语言都少不了算术操作。
+
+```bash
+#!/usr/bin/env bash
+no1=4;
+no2=5;
+
+let result=no1+no2;
+echo $result
+```
+
+使用 let 直接执行基本的算术操作，另外，发现没，$ 可以不用加了。
+
+```bash
+# 自加操作
+let no1++
+# 自减操作
+let no1--
+# 简写形式
+let no+=6
+let no-=6
+```
+
+```bash
+# 可以用 [] 代替 let
+result=$[ no1 + no2 ]
+# [] 中也可以使用 $
+result=$[ $no1 + 1 ]
+# 使用 (())
+result=$(( no1 + 1 ))
+# 使用 expr
+result=`expr 3 + 4`
+result = $(( expr $no1 + 1 ))
+```
+
+这些方法只能用于整数计算，不支持浮点数。
+
+
+
+
+
+
