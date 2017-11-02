@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "玩转 shell 系列之初识 shell 二"
+date:   2017-11-02 06:12:10 +0800
+---
+Linux 是世界上最强大、最灵活的操作系统之一，而 shell 是同 Linux 进行交互的最灵活的方式。
+
 ### 终端信息
 
 处理终端信息，是 shell 经常处理的任务。有两款工具，tput 和 stty 可以使用。
