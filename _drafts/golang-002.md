@@ -3,7 +3,6 @@ layout: post
 title:  "Go 从入门到放弃系列：入门 二"
 date:   2017-11-05 06:35:12 +0800
 ---
-![](http://pic.zinaer.com/201711/golang.jpg)
 
 今天继续来聊，Go 语言入门的一些事儿。
 
