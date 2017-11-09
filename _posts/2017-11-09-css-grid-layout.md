@@ -28,7 +28,7 @@ date:   2017-11-09 06:35:12 +0800
 
 网址：http://learncssgrid.com
 
-另一种资源是由乔纳森·萨创建的 learncssgrid.com。它解释了语法背后的理论，同时也展示了一些您可能需要的最常见布局模式的例子。
+另一种资源是由乔纳森·萨创建的 learncssgrid.com。它解释了语法背后的理论，同时也展示了一些你可能需要的最常见布局模式的例子。
 
 ![](https://cms-assets.tutsplus.com/uploads/users/30/posts/29919/image/roundup-website-templatelearncssgrid.jpg)
 
@@ -44,7 +44,7 @@ date:   2017-11-09 06:35:12 +0800
 
 网址：https://gridbyexample.com/
 
-“Grid by Example” 是由 Rachel Andrew（她自己是 CSS Grid Layout 工作组的成员）开发和维护的，已经有相当一段时间了。除了“入门指南”，它提供了关于规格的所有重要信息，它为您提供了大量的示例和最常见布局的 “grab and go” 模式。
+“Grid by Example” 是由 Rachel Andrew（她自己是 CSS Grid Layout 工作组的成员）开发和维护的，已经有相当一段时间了。除了“入门指南”，它提供了关于规格的所有重要信息，它为你提供了大量的示例和最常见布局的 “grab and go” 模式。
 
 ![](https://cms-assets.tutsplus.com/uploads/users/30/posts/29919/image/roundup-website-template-byexample.jpg)
 
