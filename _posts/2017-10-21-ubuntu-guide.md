@@ -77,7 +77,7 @@ Linux 在许多免费和开源的操作系统中使用，和 Ubuntu 一样，根
 * 漂亮、时尚、优雅：因为基于 GNOME 桌面环境
 * 稳定和快速：现在电脑上启动，用不了一分钟
 * 没有大量病毒，免受 Windows 病毒攻击，对该死的蓝屏说再见
-* 持续更新：Canonical 每六个月更新一个新版本，为您免费持续更新
+* 持续更新：Canonical 每六个月更新一个新版本，为你免费持续更新
 * 支持：可以从全球 FOSS 社区和 C​​anonical 获取所有的帮助和建议
 * 在 Linux 操作系统中，Ubuntu 是最受欢迎的
 
@@ -214,7 +214,7 @@ Unity 是 Ubuntu 从版本 11.04 到 17.04 使用的桌面。Canonical 创建了
 * 在单个窗口中搜索，下载，安装和删除软件
 * 跟踪安装，更新和删除的历史记录
 * 读写用户评论
-* 根据您的搜索和安装历史记录接收软件建议
+* 根据你的搜索和安装历史记录接收软件建议
 
 #### 如何浏览网页？
 
@@ -228,7 +228,7 @@ Mozilla Firefox 是最受欢迎的网络浏览器之一，Ubuntu 17.10 默认安
 
 ![](http://cdn.makeuseof.com/wp-content/uploads/2017/10/UbuntuBeginnersGuide-Thunderbird.png?x97327)
 
-Mozilla Thunderbird 是 Ubuntu 17.10 默认的电子邮件应用程序，也是所有主要计算机操作系统上常用的电子邮件客户端。使用 Thunderbird 在一个窗口中整合和集中管理您的所有电子邮件帐户和联系人，而不用启动浏览器。
+Mozilla Thunderbird 是 Ubuntu 17.10 默认的电子邮件应用程序，也是所有主要计算机操作系统上常用的电子邮件客户端。使用 Thunderbird 在一个窗口中整合和集中管理你的所有电子邮件帐户和联系人，而不用启动浏览器。
 
 #### 如何听音乐？
 
@@ -242,7 +242,7 @@ Shotwell Photo Manager 是 Ubuntu 17.10 中默认的照片应用程序。使用 
 
 #### 如何观看视频？
 
-Ubuntu 17.10 自带了 Totem 电影播放器​​。它可以自动加载保存到您的硬盘上的视频，并将它们以简约的界面播放回来。
+Ubuntu 17.10 自带了 Totem 电影播放器​​。它可以自动加载保存到你的硬盘上的视频，并将它们以简约的界面播放回来。
 
 ![](http://cdn.makeuseof.com/wp-content/uploads/2017/10/UbuntuBeginnersGuide-Totem-Videos.png?x97327)
 
